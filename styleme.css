@@ -1,0 +1,62 @@
+body {
+    background-color: #dddede;
+}
+
+div {
+    font-family: Arial
+}
+
+h1, h3 {
+    color: #783933;
+    font-size:30px;
+    font-family:'Orbitron';
+    
+    
+}
+
+.attract {
+    color: indigo;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 12px;
+    font-family: SansSerif;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+p::first-letter {
+    font-size: 1.5em
+}
+
+dl.movie_about {
+    color: gold;
+    font-size: 0.8em
+}
+
+dd {
+    color: black;
+}
+
+dt {
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie_about {
+    display: none;
+}
+
+#list_hidden:hover .movie_about {
+    display: block;
+}
